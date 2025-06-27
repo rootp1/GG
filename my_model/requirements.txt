@@ -1,0 +1,7 @@
+flask
+flask-cors
+timm
+torch
+torchvision
+pillow
+requests
