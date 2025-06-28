@@ -1,0 +1,244 @@
+/* General Styling */
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  
+  .profiles-container {
+    font-family: 'Pixelify Sans', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background: transparent; /* Make background invisible */
+    border-radius: 0; /* Remove border radius */
+    box-shadow: none; /* Remove shadow */
+    overflow: visible; /* Ensure no clipping */
+    padding: 0; /* Remove padding */
+  }
+  
+  
+  .profiles-header,
+  .transaction-history,
+  .quests {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #D9D9D9;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profiles-header {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5a467;
+    color: white;
+  }
+  
+  .profiles-info {
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    
+    width: 80px;
+    height: 80px;
+    background: lightgray;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .details h1 {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .badges {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 10px 0;
+
+  }
+  
+  .badge {
+    font-family: 'Pixelify Sans', sans-serif;
+    background: #4caf50;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+  }
+  div.badge{
+    border-radius: 20px;
+  }
+  .add-bio {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+  .points{
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #ffffff; 
+    border-radius: 20px;
+}
+    
+  
+  .points h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0 0 10px;
+  }
+  
+  .transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-history th,
+  .transaction-history td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .status {
+    padding: 3px 6px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .transferred {
+    background: #4caf50;
+  }
+  
+  .timed-out {
+    background: #e74c3c;
+  }
+  
+  .quests {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #36846B;
+    color: white;
+  }
+  
+  
+  .quests h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0 0 10px;
+  }
+  
+  .quest {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .quest p {
+    font-family: 'Pixelify Sans', sans-serif;
+    color: black;
+    flex: 1;
+    margin: 0;
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+  
+  .quest .reward {
+    font-family: 'Pixelify Sans', sans-serif;
+    flex: 1;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 5px 0;
+  }
+  
+  .quest button {
+    font-family: 'Pixelify Sans', sans-serif;
+    flex: 1;
+    max-width: 150px;
+    text-align: center;
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .quest button.locked-btn {
+    background: lightgray;
+    color: gray;
+    cursor: not-allowed;
+  }
+  
+  .quest button:hover:not(.locked-btn) {
+    background: #45a049;
+  }
+  div.badges{
+    padding: 5px;
+  }
+  div.badge{
+    margin-top : 5px;
+    background-color: purple;
+  }
+
+#flash{
+  font-family: 'Pixelify Sans', sans-serif;
+    background-color: #4caf50;
+    text-align: center;
+}
+h2{
+  
+    background-color: white;
+    display: inline;
+    padding:5px;
+    border-radius:10px;
+
+}
+#quest{
+        color: black;
+        display: inline;
+        padding:5px;
+        border-radius:10px;
+}
+#yourpoint{
+    text-decoration: underline coral;
+}
+div.points{
+    box-shadow:5px 5px black;
+  }
+div.quests{
+    box-shadow: 3px 3px black;
+}
+div.transaction-history{
+    box-shadow: 3px 3px black;
+
+}
+div.profiles-header{
+    box-shadow: 3px 3px black;
+
+}
+
+div.avatar{
+    background-color: transparent;
+    background-image: url('/images/p.png');
+
+}
+div.avatar img{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+    object-fit:cover;
+
+}
